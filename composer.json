@@ -1,0 +1,32 @@
+{
+    "name": "gasse/framework",
+    "description": "phplite framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gasse\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathieu Gasse",
+            "email": "gasse.mathieu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.14",
+        "symfony/var-dumper": "^6.1",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Phplite\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    }
+}
